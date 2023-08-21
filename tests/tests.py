@@ -1,6 +1,10 @@
 import unittest
 import requests
+
+# Service name is used by the test container
 DEV_URL = "http://weather_app:5000"
+
+# This URL is when tests have to be run locally
 LOCAL_URL = "http://0.0.0.0:80"
 
 session = requests.Session()
