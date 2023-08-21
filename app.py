@@ -4,6 +4,7 @@ import os,sys
 import pandas as pd
 import logging
 
+# Accepts only csv files to be uploaded
 ALLOWED_EXTENSIONS = {'csv'}
 UPLOAD_FOLDER = os.path.join('staticFiles', 'uploads')
 
