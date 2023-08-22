@@ -10,3 +10,10 @@ The app supports the following features:
          - By weather type: http://weather_app:80/query?weather=rain
    
    b. Create multi-query filtering, eg. http://weather_app:80/query?weather=rain&limit=5
+
+Tools Used:
+1. Python based Flask framework
+2. Docker for app containerization
+3. AWS ECR and Dockerhub as image registry
+4. AWS Beanstalk for hosting the web application
+5. GitHub Actions
