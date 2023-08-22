@@ -1,0 +1,27 @@
+{
+    "AWSEBDockerrunVersion": 3,
+    "containerDefinitions": [
+        {
+            "name": "weatherapp",
+            "image": "450008536934.dkr.ecr.us-east-2.amazonaws.com/weatherapp",
+            "memory": 128,
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "containerPort": 5000
+                }
+            ]
+        },
+        {
+            "name": "weatherapptesting",
+            "image": "450008536934.dkr.ecr.us-east-2.amazonaws.com/weatherapptesting",
+            "memory": 128,
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "containerPort": 5000
+                }
+            ]
+        }
+    ]
+}
