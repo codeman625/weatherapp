@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "450008536934.dkr.ecr.us-east-2.amazonaws.com/weatherapp:latest"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 5000
+    }
+  ]
+}
